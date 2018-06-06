@@ -8,47 +8,32 @@ body {
 
 #heading {
   width: 100%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-}
-
-#heading {
-	display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.partner-container {
-	/*position: absolute;*/
-	top: 2%;
-	left: 4%;
-	margin-right: 25%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .partner-logo {
-	width: 75%;
+	width: 210px;
+	height: 180px;
 }
 
 .login-stuff {
-	/*position: absolute;*/
-	top: 2%;
-  right: 8%;
+	position: absolute;
+	top: 5%;
+	right: 13%;
 }
 
 .existing-user {
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 14px;
 	text-align: left;
-	margin: 0;
 }
 
 button.login {
-	width: 100%;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	width: 140px;
+	height: 40px;
 	background-color: white;
-	border: 2px solid #3486BC;
+	border: 2px solid #369CFF;
 }
 
 .login a {
@@ -60,9 +45,6 @@ button.login {
 #rectangle-4 {
 	width: 100%;
 	height: 700px;
-  background: url('assets/images/code-2558220.jpg');
-  background-position: center;
-  background-size: cover;
 	text-align: center;
 }
 
@@ -78,7 +60,7 @@ button.login {
 button.sign-up-now {
 	width: 200px;
 	height: 60px;
-	background-color: #3486BC;
+	background-color: #369CFF;
 	border: none;
   margin-top: 116px;
 }
@@ -130,9 +112,6 @@ a,
 	width: 700px;
 	padding-top: 25%;
 	padding-bottom: 25%;
-	background: url("assets/images/Happy-worker-flipped.jpg");
-	background-size: cover;
-	background-position: left;
 }
 
 .happy-worker-text {
@@ -178,6 +157,7 @@ a,
 
 .what_you_learn {
 	max-width: 380px;
+	max-height: 450px !important;
 	margin-right: 30px;
 	margin-left: 30px;
 }
@@ -210,9 +190,8 @@ a,
 }
 
 .coding_lang {
-	height: 350px;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 6%;
+	padding-bottom: 6%;
 	margin-top: 4%;
 	margin-bottom: 4%;
 	box-shadow: 0 6px 14px 0 rgba(0,0,0,0.2);
@@ -301,9 +280,6 @@ a,
 	position: relative;
 	height: 1152px;
 	width: 100%; 
-	background: url("assets/images/lms-bottega.jpg");
-	background-position: center;
-	background-size: cover;
 }
 
 .lp-headers {
@@ -358,6 +334,7 @@ a,
 .slick-slide {
 	margin-right: 20px;
 	margin-left: 20px;
+	border: none;
 }
 
 .profile-box {
@@ -459,42 +436,11 @@ a,
 	transform: translate(-50%, -50%);
 }
 
-.profile-1 {
-	background: url("assets/images/Cherish-Clark.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.profile-2 {
-	background: url("assets/images/Cody-Higgins.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.profile-3 {
-	background: url("assets/images/Stephanie.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.profile-4 {
-	background: url("assets/images/Brian-Anderson.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
 #start-now {
 	position: relative;
 	width: 100%;
 	padding-top: 15%;
 	padding-bottom: 15%;
-	background: url("assets/images/emile-perron-190221.jpg");
-	background-size: cover;
-	background-position: center;
 }
 
 #start-now {
@@ -522,7 +468,7 @@ a,
 button.sign-up {
 	width: 200px;
 	height: 60px;
-	background-color: #3486BC;
+	background-color: #369CFF;
 	border: none;
 }
 
@@ -541,7 +487,7 @@ a,
 	width: 100%;
 	padding-top: 45px;
 	padding-bottom: 45px;
-	background-color: #3486BC;
+	background-color: #369CFF;
 }
 
 
